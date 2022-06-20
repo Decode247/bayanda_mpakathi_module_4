@@ -103,7 +103,8 @@ class _RegisterState extends State<Register> {
                                 style: TextStyle(color: Colors.red),
                                 textAlign: TextAlign.center,
                               ),
-                              backgroundColor: Color.fromARGB(255, 30, 29, 29),
+                              backgroundColor: Colors.transparent,
+                              elevation: 0,
                             ),
                           );
                         }
@@ -115,7 +116,8 @@ class _RegisterState extends State<Register> {
                               style: TextStyle(color: Colors.red),
                               textAlign: TextAlign.center,
                             ),
-                            backgroundColor: Color.fromARGB(255, 30, 29, 29),
+                            backgroundColor: Colors.transparent,
+                            elevation: 0,
                             dismissDirection: DismissDirection.startToEnd,
                           ),
                         );

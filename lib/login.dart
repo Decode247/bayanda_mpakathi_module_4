@@ -20,7 +20,7 @@ class _LoginState extends State<Login> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.transparent,
-        title: const Text("Welcome to iDoc Programming Login"),
+        title: const Text("iDoc Programming Login"),
       ),
       body: Center(
         child: Card(
@@ -69,7 +69,8 @@ class _LoginState extends State<Login> {
                                 style: TextStyle(color: Colors.red),
                                 textAlign: TextAlign.center,
                               ),
-                              backgroundColor: Color.fromARGB(255, 30, 29, 29),
+                              backgroundColor: Colors.transparent,
+                              elevation: 0,
                             ),
                           );
                         }
@@ -81,6 +82,8 @@ class _LoginState extends State<Login> {
                               style: TextStyle(color: Colors.red),
                               textAlign: TextAlign.center,
                             ),
+                            backgroundColor: Colors.transparent,
+                            elevation: 0,
                           ),
                         );
                       }

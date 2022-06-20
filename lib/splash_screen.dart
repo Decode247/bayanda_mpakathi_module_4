@@ -2,8 +2,6 @@ import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:bayanda_mpakathi_module_4/login.dart';
 import 'package:google_fonts/google_fonts.dart';
-// ignore: depend_on_referenced_packages
-import 'package:page_transition/page_transition.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -20,7 +18,6 @@ class SplashScreen extends StatelessWidget {
         ),
       ),
       splashTransition: SplashTransition.rotationTransition,
-      pageTransitionType: PageTransitionType.scale,
       duration: 7000,
       backgroundColor: Colors.purple,
       nextScreen: const Login(),
