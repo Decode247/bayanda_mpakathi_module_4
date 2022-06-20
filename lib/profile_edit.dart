@@ -1,5 +1,5 @@
-import 'package:module_3/customized.dart';
-import 'package:module_3/dashboard.dart';
+import 'package:bayanda_mpakathi_module_4/customized.dart';
+import 'package:bayanda_mpakathi_module_4/dashboard.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

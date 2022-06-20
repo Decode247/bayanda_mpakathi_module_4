@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:module_3/common_theme.dart';
-import 'package:module_3/splash_screen.dart';
+import 'package:bayanda_mpakathi_module_4/common_theme.dart';
+import 'package:bayanda_mpakathi_module_4/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());

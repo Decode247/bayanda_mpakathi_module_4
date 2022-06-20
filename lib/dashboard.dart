@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:module_3/doc.dart';
-import 'package:module_3/profile_edit.dart';
+import 'package:bayanda_mpakathi_module_4/doc.dart';
+import 'package:bayanda_mpakathi_module_4/profile_edit.dart';
 import 'package:url_launcher/link.dart';
-import 'package:module_3/customized.dart';
-import 'package:module_3/login.dart';
+import 'package:bayanda_mpakathi_module_4/customized.dart';
+import 'package:bayanda_mpakathi_module_4/login.dart';
 
 class Dashboard extends StatefulWidget {
   const Dashboard({Key? key}) : super(key: key);
